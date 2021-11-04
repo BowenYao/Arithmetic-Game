@@ -1,6 +1,7 @@
-package com.company;
+package ArithmeticGame.Server;
 
 public class Generator {
+    //This is a simple class which randomly generates a number set of given size
     private int low,high,size=4;
     public Generator(){
         low = 1;
@@ -22,6 +23,7 @@ public class Generator {
         }
         return numSet;
     }
+
     public int getLow(){
         return low;
     }
